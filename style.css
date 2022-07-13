@@ -1,0 +1,175 @@
+body {
+	background-color: hsl(217, 54%, 11%);
+}
+
+
+.nft-card {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: hsl(216, 50%, 16%);
+	width: 340px;
+	height: 590px;
+	border-radius: 15px;
+	
+
+}
+
+
+
+
+.nft-img {
+	margin-top: 25px;
+	text-align: center;
+	
+}
+
+.imgg{
+	width: 300px;
+	height: 300px;
+	border-radius: 15px;
+	
+}
+
+.img-hover {
+	transition: .5s ease;
+	opacity: 0;
+	margin-left: 20px;
+	position: absolute;
+
+}
+ 
+.hover-view{
+position: absolute;
+margin-top: 125px;
+margin-left: 125px;
+}
+
+.imgg:hover{
+	opacity: 1;
+
+}
+
+.nft-img:hover .img-hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.overlay{
+	background: hsl(178, 100%, 50%);
+	opacity: .5;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	border-radius: 15px;
+	}
+
+
+
+
+
+.nft-texts{
+	margin-top: 20px;
+margin-left: 30px;
+}
+.nft-h{
+font-size: 20px;
+font-family: 'Outfit', sans-serif;
+font-weight: 600;
+color: hsl(0, 0%, 100%);
+}
+
+.nft-h:hover{
+	cursor: pointer;
+	color:hsl(178, 100%, 50%) ;
+}
+
+.nft-p{
+	font-size: 18px;
+	font-family: 'Outfit', sans-serif;
+	font-weight: 300;
+	color: hsl(215, 51%, 70%);
+	margin-top: 20px;
+}
+
+.nft-price{
+	display: flex;
+	flex-direction: row;
+	margin-left: 30px;
+	margin-top: 30px;
+
+}
+
+.svg-price{
+	margin-right: 5px;
+	margin-top: 2px;
+}
+
+.svg-time{
+	margin-right: 5px;
+	margin-top: 2px;
+	margin-left: 110px;
+}
+
+.price-1{
+font-family: 'Outfit', sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: hsl(178, 100%, 50%);
+}
+
+.nft-days{
+	font-family: 'Outfit', sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: hsl(215, 51%, 70%);
+}
+
+
+.line{
+	height: 0.5px;
+	opacity: 0.2;
+	width: 315px;
+	margin-left: 20px;
+	margin-top: 23px;
+	text-align: center;
+background: hsl(215, 51%, 70%);
+}
+
+
+.nft-person{
+	display: flex;
+	flex-direction: row;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+
+.nft-person img{
+width: 30px;
+height: 30px;
+border:1px solid hsl(0, 0%, 100%);
+border-radius: 30px;
+}
+
+.person-name{ 
+	margin-top: 5px;
+	margin-left: 15px;
+	font-family: 'Outfit', sans-serif;
+font-size: 16px;
+font-weight: 300;
+color: hsl(215, 51%, 70%);
+}
+
+
+.person-name span{
+color: hsl(0, 0%, 100%);
+}
+
+
+
+.person-name span:hover{
+	cursor: pointer;
+	color:hsl(178, 100%, 50%) ;
+}
